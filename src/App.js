@@ -1,7 +1,8 @@
 function App() {
   return (
     <div>
-      <h1>AI Resume Pro is Working!</h1>
+      <Route path="/" component={HomePage} />
+
     </div>
   );
 }
